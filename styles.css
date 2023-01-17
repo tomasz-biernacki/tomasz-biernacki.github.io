@@ -12,6 +12,6 @@ body {
     font-family: 'FiraCode';
 }
 
-li {
-    margin: 10px 0px;
+.date {
+    margin-right: 10px;
 }
