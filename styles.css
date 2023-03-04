@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'FiraCode';
-    src: URL('FiraCode-Regular.ttf') format('truetype');
+    font-family: 'LMR';
+    src: URL('Latin-Modern-Roman/lmroman10-regular.otf') format('opentype');
 }
 
 body {
     margin: 0 auto;
-    width: 90%;
+    width: 50%;
 }
 
 * {
-    font-family: 'FiraCode';
+    font-family: 'LMR';
 }
 
 .date {
