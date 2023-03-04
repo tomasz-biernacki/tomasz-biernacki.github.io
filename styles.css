@@ -5,7 +5,7 @@
 
 body {
     margin: 0 auto;
-    width: 50%;
+    width: 80%;
 }
 
 * {
@@ -14,4 +14,75 @@ body {
 
 .date {
     margin-right: 10px;
+}
+
+img {
+    display: block;
+}
+
+figure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+img.full-width {
+    width: 100%;
+}
+
+img.half-width {
+    width: 50%;
+}
+
+figcaption {
+    color: #555;
+    font-size: 80%
+}
+
+div > iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+iframe {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.column-1 {
+    flex: 100%;
+}
+
+.column-2 {
+    display: flex;
+    flex: 50%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-3 {
+    display: flex;
+    flex: 33.33%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.column-4 {
+    display: flex;
+    flex: 25%;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
 }
