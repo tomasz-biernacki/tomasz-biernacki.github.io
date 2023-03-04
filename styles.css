@@ -47,9 +47,11 @@ div > iframe {
     width: 100%;
 }
 
-iframe {
+iframe.centered,
+img.centered-75,
+figure.centered-75 {
     display: block;
-    width: 50%;
+    width: 75%;
     margin-left: auto;
     margin-right: auto;
 }
